@@ -1,0 +1,20 @@
+.card{
+    border: dashed;
+    border-width: thin;
+    border-color: rgb(81, 81, 248);
+}
+
+h1{
+    font-style: italic;
+    background-color: rgb(147, 228, 249);
+    text-align: center;
+}
+
+li{
+    font-size: 18px;
+}
+
+p-knob{
+    display: inline-block;
+
+}

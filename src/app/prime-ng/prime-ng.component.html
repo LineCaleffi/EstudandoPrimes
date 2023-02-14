@@ -1,0 +1,38 @@
+<br><h1>Prime NG</h1>
+<span class="p-float-label">
+  <input id="in_title" type="text" [(ngModel)]="title" pInputText>
+  <label for="in_title">Título</label>
+</span>
+<br>
+<!--   //quando clica no botão ele muda o título pra upperCase -->
+<button pButton type="button" label="PrimeNg" (click)="upperCase()"></button>
+
+<p>{{ title }}</p>
+
+<li>Usando InputSwitch</li>
+<p-inputSwitch [(ngModel)]="checked"></p-inputSwitch>
+<p-inputSwitch [(ngModel)]="checked2">Pré selecionado</p-inputSwitch>
+
+<!-- 
+  - Knob é um componente de formulário para definir entradas numéricas com um mostrador. <br> 
+-->
+<br><br><li>Usando Knob: Arraste o mouse para subir e descer a barra </li>
+<p-knob [(ngModel)]="value"></p-knob>
+<p-knob [(ngModel)]="value2" valueColor="SlateGray" rangeColor="MediumTurquoise"></p-knob>
+<p-knob [(ngModel)]="value3" [size]="200"></p-knob>
+<p-knob [(ngModel)]="value4" [size]="200" valueColor="SlateGray" rangeColor="MediumTurquoise"></p-knob>
+
+<!-- 
+  Slider é um componente de entrada para fornecer uma entrada numérica.
+-->
+<br><li>Usando Slider:</li>
+<p-slider [(ngModel)]="slider"></p-slider>
+<br>
+<p-slider [(ngModel)]="slider2"></p-slider>
+<br>
+<p-slider [(ngModel)]="rangeValues" [range]="true"></p-slider>
+
+
+<!--  pInputText: É uma diretiva e aplicada ao campo de entrada de texto. -->
+
+
