@@ -1,4 +1,3 @@
-import { FormsModule } from '@angular/forms';
 import { PrimeFlexModule } from './prime-flex/prime-flex.module';
 import { CalendarModule } from './calendar/calendar.module';
 import { NgModule } from '@angular/core';
@@ -17,8 +16,7 @@ import { PrimeNgModule } from './prime-ng/prime-ng.module';
     AppRoutingModule,
     CalendarModule,
     PrimeFlexModule,
-    PrimeNgModule,
-    FormsModule
+    PrimeNgModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,8 +5,6 @@ import { InputSwitchModule } from 'primeng/inputswitch';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-
-
 @NgModule({
   declarations: [
     PrimeFlexComponent
@@ -17,7 +15,7 @@ import { CommonModule } from '@angular/common';
     FormsModule,
     InputSwitchModule
   ],
-  exports:[
+  exports: [
     PrimeFlexComponent
   ]
 })

@@ -19,9 +19,9 @@ export class PrimeNgComponent {
   slider: number = 0;
   slider2: number = 50;
 
-  rangeValues: number[] = [20,80];
+  rangeValues: number[] = [20, 80];
 
-  upperCase(){
+  upperCase() {
     this.title = this.title.toUpperCase();
   }
 }

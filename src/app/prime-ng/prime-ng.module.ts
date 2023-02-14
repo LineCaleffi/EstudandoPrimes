@@ -1,3 +1,4 @@
+import { InputTextModule } from 'primeng/inputtext';
 import { PrimeNgComponent } from './prime-ng.component';
 import { SliderModule } from 'primeng/slider';
 import { KnobModule } from 'primeng/knob';
@@ -18,8 +19,9 @@ import { CommonModule } from '@angular/common';
     FormsModule,
     KnobModule,
     SliderModule,
+    InputTextModule
   ],
-  exports:[
+  exports: [
     PrimeNgComponent
   ]
 })
